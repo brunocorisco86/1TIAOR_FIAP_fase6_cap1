@@ -6,9 +6,7 @@
 
 <br>
 
-# Cap 1 - Despertar da Rede Neural
-
-## Nome do grupo
+# FASE 6 / Cap 1 - Despertar da Rede Neural
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/a1exlima/">RM559784@fiap.com.br - Alex da Silva Lima </a>
@@ -24,8 +22,6 @@
 - <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi</a>
 
 ## 📜 Descrição
-
-**PROJETO FASE 6 – O COMEÇO DA REDE NEURAL**
 
 Este projeto, desenvolvido como parte da Fase 6 do curso da FIAP, foca na implementação e avaliação de um sistema de visão computacional utilizando a biblioteca **YOLO** para reconhecimento de objetos, além de uma comparação com outras abordagens de redes neurais. O objetivo é demonstrar as capacidades de visão computacional da **FarmTech Solutions**, uma empresa fictícia que expandiu seus serviços de IA para áreas como saúde animal, segurança patrimonial e análise de documentos.
 
