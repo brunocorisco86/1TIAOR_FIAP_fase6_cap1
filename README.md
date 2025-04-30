@@ -1,72 +1,98 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+<a href="https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width=40% height=40%></a>
 </p>
 
 <br>
 
-# Nome do projeto
+# Cap 1 - Despertar da Rede Neural
 
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/in/a1exlima/">RM559784@fiap.com.br - Alex da Silva Lima </a>
+- <a href="https://www.linkedin.com/in/johnatanloriano/">RM559546@fiap.com.br - Johnatan Sousa Macedo Loriano</a>
+- <a href="https://www.linkedin.com/in/matheus-maia-655bb1250/">RM560683@fiap.com.br - Matheus Augusto Rodrigues Maia</a>
+- <a href="https://www.linkedin.com/in/brunoconter/">RM560518@fiap.com.br - Bruno Henrique Nielsen Conter</a>
+- <a href="https://www.linkedin.com/in/fabiosantoscardoso/">RM560479@fiap.com.br - Fabio Santos Cardoso</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Leonardo Ruiz Orabona</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
-
+- <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi</a>
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+**PROJETO FASE 6 – O COMEÇO DA REDE NEURAL**
 
+Este projeto, desenvolvido como parte da Fase 6 do curso da FIAP, foca na implementação e avaliação de um sistema de visão computacional utilizando a biblioteca **YOLO** para reconhecimento de objetos, além de uma comparação com outras abordagens de redes neurais. O objetivo é demonstrar as capacidades de visão computacional da **FarmTech Solutions**, uma empresa fictícia que expandiu seus serviços de IA para áreas como saúde animal, segurança patrimonial e análise de documentos.
 
-## 📁 Estrutura de pastas
+## 📂 Estrutura do Repositório
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+```plaintext
+1TIAOR_FIAP_fase6_cap1/
+├── .github/               # Configurações do GitHub (workflows, etc.)
+├── assets/                # Arquivos estáticos como imagens e resultados
+├── config/                # Arquivos de configuração do projeto
+├── document/              # Documentação adicional
+├── scripts/               # Scripts para treinamento e testes
+├── src/                   # Código-fonte do projeto
+├── .gitattributes         # Configurações de atributos do Git
+├── .gitignore             # Arquivos e pastas ignorados pelo Git
+└── README.md              # Este arquivo
+```
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+## 📦 Entregáveis
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+### Entrega 1: Sistema de Visão Computacional com YOLO Customizado
+  - Contém a implementação do sistema de visão computacional com YOLO customizado, incluindo treinamento, validação e teste.
+  - Inclui comparações de desempenho com diferentes números de épocas (30 e 60), resultados de acurácia e prints das imagens de teste processadas.
+- **Vídeo Demonstrativo**: [Link para o vídeo no YouTube](https://www.youtube.com/watch?v=SEU_LINK_AQUI) (não listado, até 5 minutos)
+  - Demonstra o funcionamento do sistema, destacando os resultados práticos do modelo.
 
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+### Entrega 2: Comparação de Abordagens
+- **Notebook Jupyter**: `Comparison_rm559784_pbl_fase6.ipynb`
+  - Apresenta a implementação e comparação de três abordagens: YOLO customizado, YOLO tradicional e uma CNN treinada do zero.
+  - Inclui avaliações em termos de facilidade de uso, precisão, tempo de treinamento e tempo de inferência, com análises detalhadas em Markdown.
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+## 🔧 Como Utilizar
 
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+### Pré-requisitos
+- **Python** versão 3.8 ou superior.
+- Bibliotecas: listadas em `requirements.txt`
+- Conta no Google Drive para acessar o dataset e as anotações.
+- Google Colab para executar os notebooks.
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+### Passo a Passo
+1. **Clone o repositório** para sua máquina local:
+   ```bash
+   git clone https://github.com/brunocorisco86/1TIAOR_FIAP_fase6_cap1.git
+   ```
 
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+2. **Navegue até a pasta principal**:
+   ```bash
+   cd 1TIAOR_FIAP_fase6_cap1
+   ```
 
-## 🔧 Como executar o código
+3. **Instale as dependências** (caso queira executar localmente):
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+4. **Acesse os notebooks no Google Colab**:
+   - Abra o arquivo `Comparison_rm559784_pbl_fase.ipynb` no Google Colab para explorar a Entrega 2.
+   - Conecte o Colab ao seu Google Drive para acessar o dataset e as anotações, conforme descrito nos notebooks.
 
+5. **Assista ao vídeo demonstrativo**:
+   - Acesse o link do YouTube fornecido acima para visualizar a demonstração prática do sistema.
 
-## 🗃 Histórico de lançamentos
+## 🗃 Histórico de Lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+* 0.1.0 - 29/04/2025
+    * Versão inicial com os notebooks e vídeo demonstrativo das entregas.
 
 ## 📋 Licença
 
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-
-
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/brunocorisco86/1TIAOR_FIAP_fase6_cap1">FarmTech Vision AI</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">FIAP</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
