@@ -19,7 +19,7 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="[https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/](https://www.linkedin.com/in/leonardoorabona/?originalSubdomain=br)">Leonardo Ruiz Orabona</a>
+- <a href="https://www.linkedin.com/in/leonardoorabona/?originalSubdomain=br">Leonardo Ruiz Orabona</a>
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi</a>
 
