@@ -46,7 +46,7 @@ Este projeto, desenvolvido como parte da Fase 6 do curso da FIAP, foca na implem
 ### Entrega 1: Sistema de Visão Computacional com YOLO Customizado
   - Contém a implementação do sistema de visão computacional com YOLO customizado, incluindo treinamento, validação e teste.
   - Inclui comparações de desempenho com diferentes números de épocas (30 e 60), resultados de acurácia e prints das imagens de teste processadas.
-- **Vídeo Demonstrativo**: [Link para o vídeo no YouTube]([https://www.youtube.com/watch?v=xQrOxPRXI24]) (não listado, até 5 minutos)
+- **Vídeo Demonstrativo**: [Link para o vídeo no YouTube](https://www.youtube.com/watch?v=xQrOxPRXI24) (não listado, até 5 minutos)
   - Demonstra o funcionamento do sistema, destacando os resultados práticos do modelo.
 
 ### Entrega 2: Comparação de Abordagens
