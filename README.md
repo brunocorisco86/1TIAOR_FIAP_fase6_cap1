@@ -39,6 +39,7 @@ Este projeto, desenvolvido como parte da Fase 6 do curso da FIAP, foca na implem
 ├── document/              # Documentação adicional
 ├── scripts/               # Scripts para treinamento e testes
 ├── src/                   # Código-fonte do projeto
+├── Comparison_rm559784_pbl_fase6.ipynb  # Notebook da Entrega 2
 ├── .gitattributes         # Configurações de atributos do Git
 ├── .gitignore             # Arquivos e pastas ignorados pelo Git
 └── README.md              # Este arquivo
