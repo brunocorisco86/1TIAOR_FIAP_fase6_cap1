@@ -49,7 +49,7 @@ Neste repositório estão os entregáveis dos dois desafios complementares
   - Contém a implementação do sistema de visão computacional com YOLO customizado, incluindo treinamento, validação e teste.
   - Inclui comparações de desempenho com diferentes números de épocas (35 e 55), resultados de acurácia e prints das imagens de teste processadas.
 - **Notebook Jupyter**: `FabioCardoso_rm560479_pbl_fase6-Desafio-1.ipynb`
-- **Vídeo Demonstrativo**: [Link para o vídeo no YouTube](https://www.youtube.com/watch?v=xQrOxPRXI24) (não listado, até 5 minutos)
+- **Vídeo Demonstrativo**: [Link para o vídeo no YouTube](https://www.youtube.com/watch?v=OHgUcXGzqKg) (não listado, até 5 minutos)
   - Demonstra o funcionamento do sistema, destacando os resultados práticos do modelo.
 
 ### Entrega 2: Comparação de Abordagens
