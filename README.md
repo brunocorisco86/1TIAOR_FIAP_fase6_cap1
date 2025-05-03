@@ -25,17 +25,19 @@
 
 Este projeto, desenvolvido como parte da Fase 6 do curso da FIAP, foca na implementação e avaliação de um sistema de visão computacional utilizando a biblioteca **YOLO** para reconhecimento de objetos, além de uma comparação com outras abordagens de redes neurais. O objetivo é demonstrar as capacidades de visão computacional da **FarmTech Solutions**, uma empresa fictícia que expandiu seus serviços de IA para áreas como saúde animal, segurança patrimonial e análise de documentos.
 
+Neste repositório estão os entregáveis dos dois desafios complementares
+
 ## 📂 Estrutura do Repositório
 
 ```plaintext
 1TIAOR_FIAP_fase6_cap1/
 ├── .github/               # Configurações do GitHub (workflows, etc.)
-├── assets/                # Arquivos estáticos como imagens e resultados
-├── config/                # Arquivos de configuração do projeto
-├── document/              # Documentação adicional
-├── scripts/               # Scripts para treinamento e testes
-├── src/                   # Código-fonte do projeto
-├── Comparison_rm559784_pbl_fase6.ipynb  # Notebook da Entrega 2
+├── images/                # Diretorio de imagens para treino, teste e validação
+├── labels/                # diretorio de labels das imagens
+├── runs-desafio_1/        # diretorios de treino e testes do desafio 1
+├── runs-desafio_2/        # diretorios de testes do desafio 2
+├── FabioCardoso_rm560479_pbl_fase6-Desafio-1.ipynb  # Notebook da Entrega 1
+├── FabioCardoso_rm560479_pbl_fase6-Desafio-2.ipynb  # Notebook da Entrega 2
 ├── .gitattributes         # Configurações de atributos do Git
 ├── .gitignore             # Arquivos e pastas ignorados pelo Git
 └── README.md              # Este arquivo
@@ -45,22 +47,21 @@ Este projeto, desenvolvido como parte da Fase 6 do curso da FIAP, foca na implem
 
 ### Entrega 1: Sistema de Visão Computacional com YOLO Customizado
   - Contém a implementação do sistema de visão computacional com YOLO customizado, incluindo treinamento, validação e teste.
-  - Inclui comparações de desempenho com diferentes números de épocas (30 e 60), resultados de acurácia e prints das imagens de teste processadas.
+  - Inclui comparações de desempenho com diferentes números de épocas (35 e 55), resultados de acurácia e prints das imagens de teste processadas.
+- **Notebook Jupyter**: `FabioCardoso_rm560479_pbl_fase6-Desafio-1.ipynb`
 - **Vídeo Demonstrativo**: [Link para o vídeo no YouTube](https://www.youtube.com/watch?v=xQrOxPRXI24) (não listado, até 5 minutos)
   - Demonstra o funcionamento do sistema, destacando os resultados práticos do modelo.
 
 ### Entrega 2: Comparação de Abordagens
-- **Notebook Jupyter**: `Comparison_rm559784_pbl_fase6.ipynb`
+- **Notebook Jupyter**: `FabioCardoso_rm560479_pbl_fase6-Desafio-2.ipynb`
   - Apresenta a implementação e comparação de três abordagens: YOLO customizado, YOLO tradicional e uma CNN treinada do zero.
   - Inclui avaliações em termos de facilidade de uso, precisão, tempo de treinamento e tempo de inferência, com análises detalhadas em Markdown.
 
 ## 🔧 Como Utilizar
 
 ### Pré-requisitos
-- **Python** versão 3.8 ou superior.
-- Bibliotecas: listadas em `requirements.txt`
-- Conta no Google Drive para acessar o dataset e as anotações.
-- Google Colab para executar os notebooks.
+- **Python** versão 3.10 ou superior.
+- Jupyter notebook para executar os notebooks.
 
 ### Passo a Passo
 1. **Clone o repositório** para sua máquina local:
@@ -73,16 +74,12 @@ Este projeto, desenvolvido como parte da Fase 6 do curso da FIAP, foca na implem
    cd 1TIAOR_FIAP_fase6_cap1
    ```
 
-3. **Instale as dependências** (caso queira executar localmente):
+3. **Dependências**:
    ```bash
-   pip install -r requirements.txt
+   Não é necessario, os notebooks instalam automaticamente
    ```
 
-4. **Acesse os notebooks no Google Colab**:
-   - Abra o arquivo `Comparison_rm559784_pbl_fase.ipynb` no Google Colab para explorar a Entrega 2.
-   - Conecte o Colab ao seu Google Drive para acessar o dataset e as anotações, conforme descrito nos notebooks.
-
-5. **Assista ao vídeo demonstrativo**:
+4. **Assista ao vídeo demonstrativo**:
    - Acesse o link do YouTube fornecido acima para visualizar a demonstração prática do sistema.
 
 ## 🗃 Histórico de Lançamentos
